@@ -1,0 +1,31 @@
+a{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+color: white;
+}
+nav{
+  color: white;
+  height: 100px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  
+}
+.logo{
+  height: 50px;;
+  margin: 10px;
+  border-radius: 50px;
+}
+.plant_style{
+  padding: 10px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: justify;
+  font-size: 2.5rem;
+}

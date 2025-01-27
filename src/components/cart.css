@@ -1,0 +1,42 @@
+.table{
+  margin: 10px;
+  padding: 4px;
+  background-color: lightgreen;
+  border: 2px solid black;
+}
+th,td{
+  background-color: white;
+}
+th{
+  border: 1px solid black;
+  padding: 7px;
+  margin: 3px;
+
+}
+td{
+  border: solid 1px black;
+  padding: 0px;
+}
+td > img{
+  padding: 0;
+  height: 100px;
+  width: 150px;;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+}
+.add{
+  background-color: green;
+  padding: 10px;
+  ;
+}
+.minus{
+  background-color: red;
+  padding: 10px;
+}
+button{
+  border: none;
+  outline: none;
+  margin: 5px;
+}
